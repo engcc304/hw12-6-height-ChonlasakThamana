@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW12/hw12-6-Height.cpp",
+      "run": "./a.out",
+      "input": "John\r\n176.6\r\nJob\r\n177.5\r\nAim\r\n149.8\r\nMon\r\n158.9\r\nAmmy\r\n151.0\r\nA\r\n169.7\r\n-1\r\nKomsam\r\n176.1\r\nSamart\r\n165.4\r\nSunu\r\n168.1\r\n-1\r\n",
+      "output": "Room A -> Aim Ammy Mon A John Job\r\nRoom B -> Samart Sunu Komsam\r\nSchool -> Job John Komsam A Sunu Samart Mon Ammy Aim",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
