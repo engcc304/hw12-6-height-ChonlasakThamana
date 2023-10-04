@@ -50,7 +50,8 @@
         Room A -> Aim Ammy Mon A John Job
         Room B -> Samart Sunu Komsam
         School -> Job John Komsam A Sunu Samart Mon Ammy Aim
-*/#include <stdio.h>
+*/
+#include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
